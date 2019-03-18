@@ -2281,6 +2281,14 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
+    "location": "modules/integrators/#GeometricIntegrators.Integrators.integrate_step!-Union{Tuple{NW}, Tuple{NQ}, Tuple{TT}, Tuple{DT}, Tuple{IntegratorSISPRK{DT,TT,PT,ST,N} where N where ST<:NonlinearSolver{DT} where PT<:(ParametersSISPRK{DT,TT,ET,D,M,S} where S where M where D where ET<:(SPSDE{DT,TT,vType,f1Type,f2Type,BType,G1Type,G2Type,N} where N where G2Type<:Function where G1Type<:Function where BType<:Function where f2Type<:Function where f1Type<:Function where vType<:Function)),SolutionPSDE{DT,TT,NQ,NW},Int64,Int64,Int64}} where NW where NQ where TT where DT",
+    "page": "Integrators",
+    "title": "GeometricIntegrators.Integrators.integrate_step!",
+    "category": "method",
+    "text": "Integrate PSDE with a stochastic implicit partitioned Runge-Kutta integrator.  Integrating the k-th sample path for the m-th initial condition\n\n\n\n\n\n"
+},
+
+{
     "location": "modules/integrators/#GeometricIntegrators.Integrators.integrate_step!-Union{Tuple{NW}, Tuple{NQ}, Tuple{TT}, Tuple{DT}, Tuple{IntegratorWIRK{DT,TT,PT,ST,N} where N where ST<:NonlinearSolver{DT} where PT<:(ParametersWIRK{DT,TT,ET,D,M,S} where S where M where D where ET<:(SDE{DT,TT,vType,BType,N} where N where BType<:Function where vType<:Function)),SolutionSDE{DT,TT,NQ,NW},Int64,Int64,Int64}} where NW where NQ where TT where DT",
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.integrate_step!",
@@ -2661,7 +2669,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for implicit ODE.\n\n\n\n\n\n"
+    "text": "Create solution for DAE.\n\n\n\n\n\n"
 },
 
 {
@@ -2669,7 +2677,15 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for partitioned ODE.\n\n\n\n\n\n"
+    "text": "Create solution for ODE and split ODE.\n\n\n\n\n\n"
+},
+
+{
+    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
+    "page": "Solutions",
+    "title": "GeometricIntegrators.Solutions.Solution",
+    "category": "type",
+    "text": "Create solution for variational ODE.\n\n\n\n\n\n"
 },
 
 {
@@ -2693,7 +2709,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for variational ODE.\n\n\n\n\n\n"
+    "text": "Print error for solutions of equations not implemented, yet.\n\n\n\n\n\n"
 },
 
 {
@@ -2709,6 +2725,14 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
+    "text": "Create solution for implicit ODE.\n\n\n\n\n\n"
+},
+
+{
+    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
+    "page": "Solutions",
+    "title": "GeometricIntegrators.Solutions.Solution",
+    "category": "type",
     "text": "Create solution for PSDE.\n\n\n\n\n\n"
 },
 
@@ -2717,23 +2741,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for ODE and split ODE.\n\n\n\n\n\n"
-},
-
-{
-    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
-    "page": "Solutions",
-    "title": "GeometricIntegrators.Solutions.Solution",
-    "category": "type",
-    "text": "Create solution for DAE.\n\n\n\n\n\n"
-},
-
-{
-    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
-    "page": "Solutions",
-    "title": "GeometricIntegrators.Solutions.Solution",
-    "category": "type",
-    "text": "Print error for solutions of equations not implemented, yet.\n\n\n\n\n\n"
+    "text": "Create solution for partitioned ODE.\n\n\n\n\n\n"
 },
 
 {
