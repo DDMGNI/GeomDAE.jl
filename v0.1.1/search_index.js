@@ -2677,7 +2677,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for DAE.\n\n\n\n\n\n"
+    "text": "Create solution for implicit DAE.\n\n\n\n\n\n"
 },
 
 {
@@ -2693,7 +2693,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Print error for solutions of equations not implemented, yet.\n\n\n\n\n\n"
+    "text": "Create solution for partitioned ODE.\n\n\n\n\n\n"
 },
 
 {
@@ -2709,7 +2709,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for partitioned DAE.\n\n\n\n\n\n"
+    "text": "Print error for solutions of equations not implemented, yet.\n\n\n\n\n\n"
 },
 
 {
@@ -2717,15 +2717,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for partitioned ODE.\n\n\n\n\n\n"
-},
-
-{
-    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
-    "page": "Solutions",
-    "title": "GeometricIntegrators.Solutions.Solution",
-    "category": "type",
-    "text": "Create solution for variational ODE.\n\n\n\n\n\n"
+    "text": "Create solution for DAE.\n\n\n\n\n\n"
 },
 
 {
@@ -2741,7 +2733,15 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for implicit DAE.\n\n\n\n\n\n"
+    "text": "Create solution for variational ODE.\n\n\n\n\n\n"
+},
+
+{
+    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
+    "page": "Solutions",
+    "title": "GeometricIntegrators.Solutions.Solution",
+    "category": "type",
+    "text": "Create solution for partitioned DAE.\n\n\n\n\n\n"
 },
 
 {
