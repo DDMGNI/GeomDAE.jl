@@ -1573,7 +1573,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.integrate",
     "category": "function",
-    "text": "Integrate ODE specified by vector field and initial condition with given tableau for ntime time steps and return solution.\n\n\n\n\n\n"
+    "text": "Apply integrator for ntime time steps and return solution.\n\n\n\n\n\n"
 },
 
 {
@@ -1581,7 +1581,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.integrate",
     "category": "function",
-    "text": "Apply integrator for ntime time steps and return solution.\n\n\n\n\n\n"
+    "text": "Integrate ODE specified by vector field and initial condition with given tableau for ntime time steps and return solution.\n\n\n\n\n\n"
 },
 
 {
@@ -2677,7 +2677,15 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for SDE.\n\n\n\n\n\n"
+    "text": "Create solution for partitioned ODE.\n\n\n\n\n\n"
+},
+
+{
+    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
+    "page": "Solutions",
+    "title": "GeometricIntegrators.Solutions.Solution",
+    "category": "type",
+    "text": "Create solution for implicit ODE.\n\n\n\n\n\n"
 },
 
 {
@@ -2693,7 +2701,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for partitioned ODE.\n\n\n\n\n\n"
+    "text": "Create solution for implicit DAE.\n\n\n\n\n\n"
 },
 
 {
@@ -2709,15 +2717,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for PSDE.\n\n\n\n\n\n"
-},
-
-{
-    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
-    "page": "Solutions",
-    "title": "GeometricIntegrators.Solutions.Solution",
-    "category": "type",
-    "text": "Create solution for ODE and split ODE.\n\n\n\n\n\n"
+    "text": "Create solution for SDE.\n\n\n\n\n\n"
 },
 
 {
@@ -2733,7 +2733,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for implicit DAE.\n\n\n\n\n\n"
+    "text": "Create solution for ODE and split ODE.\n\n\n\n\n\n"
 },
 
 {
@@ -2741,7 +2741,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for implicit ODE.\n\n\n\n\n\n"
+    "text": "Create solution for PSDE.\n\n\n\n\n\n"
 },
 
 {
