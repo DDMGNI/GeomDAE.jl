@@ -1565,7 +1565,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.integrate",
     "category": "function",
-    "text": "Apply integrator for ntime time steps and return solution.\n\n\n\n\n\n"
+    "text": "Integrate ODE specified by vector field and initial condition with given tableau for ntime time steps and return solution.\n\n\n\n\n\n"
 },
 
 {
@@ -1573,7 +1573,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Integrators",
     "title": "GeometricIntegrators.Integrators.integrate",
     "category": "function",
-    "text": "Integrate ODE specified by vector field and initial condition with given tableau for ntime time steps and return solution.\n\n\n\n\n\n"
+    "text": "Apply integrator for ntime time steps and return solution.\n\n\n\n\n\n"
 },
 
 {
@@ -2669,30 +2669,6 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for ODE and split ODE.\n\n\n\n\n\n"
-},
-
-{
-    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
-    "page": "Solutions",
-    "title": "GeometricIntegrators.Solutions.Solution",
-    "category": "type",
-    "text": "Create solution for PSDE.\n\n\n\n\n\n"
-},
-
-{
-    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
-    "page": "Solutions",
-    "title": "GeometricIntegrators.Solutions.Solution",
-    "category": "type",
-    "text": "Create solution for partitioned ODE.\n\n\n\n\n\n"
-},
-
-{
-    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
-    "page": "Solutions",
-    "title": "GeometricIntegrators.Solutions.Solution",
-    "category": "type",
     "text": "Print error for solutions of equations not implemented, yet.\n\n\n\n\n\n"
 },
 
@@ -2709,7 +2685,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for SDE.\n\n\n\n\n\n"
+    "text": "Create solution for partitioned ODE.\n\n\n\n\n\n"
 },
 
 {
@@ -2725,7 +2701,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for implicit ODE.\n\n\n\n\n\n"
+    "text": "Create solution for PSDE.\n\n\n\n\n\n"
 },
 
 {
@@ -2733,7 +2709,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
-    "text": "Create solution for DAE.\n\n\n\n\n\n"
+    "text": "Create solution for ODE and split ODE.\n\n\n\n\n\n"
 },
 
 {
@@ -2742,6 +2718,30 @@ var documenterSearchIndex = {"docs": [
     "title": "GeometricIntegrators.Solutions.Solution",
     "category": "type",
     "text": "Create solution for implicit DAE.\n\n\n\n\n\n"
+},
+
+{
+    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
+    "page": "Solutions",
+    "title": "GeometricIntegrators.Solutions.Solution",
+    "category": "type",
+    "text": "Create solution for implicit ODE.\n\n\n\n\n\n"
+},
+
+{
+    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
+    "page": "Solutions",
+    "title": "GeometricIntegrators.Solutions.Solution",
+    "category": "type",
+    "text": "Create solution for SDE.\n\n\n\n\n\n"
+},
+
+{
+    "location": "modules/solutions/#GeometricIntegrators.Solutions.Solution",
+    "page": "Solutions",
+    "title": "GeometricIntegrators.Solutions.Solution",
+    "category": "type",
+    "text": "Create solution for DAE.\n\n\n\n\n\n"
 },
 
 {
@@ -2957,7 +2957,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.createHDF5",
     "category": "function",
-    "text": "createHDF5: Creates or opens HDF5 file.   A version for StochasticSolution. It does not create attributes   and does not write the time array t, like the version above does. Instead these   are set in create_hdf5(), so that arrays larger than currently held in the solution   structure can be created in the file. In the future it would be better to rewrite   the function above, so that it is universal for all solution structures.\n\n\n\n\n\n"
+    "text": "createHDF5: Creates or opens HDF5 file.\n\n\n\n\n\n"
 },
 
 {
@@ -2965,7 +2965,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Solutions",
     "title": "GeometricIntegrators.Solutions.createHDF5",
     "category": "function",
-    "text": "createHDF5: Creates or opens HDF5 file.\n\n\n\n\n\n"
+    "text": "createHDF5: Creates or opens HDF5 file.   A version for StochasticSolution. It does not create attributes   and does not write the time array t, like the version above does. Instead these   are set in create_hdf5(), so that arrays larger than currently held in the solution   structure can be created in the file. In the future it would be better to rewrite   the function above, so that it is universal for all solution structures.\n\n\n\n\n\n"
 },
 
 {
